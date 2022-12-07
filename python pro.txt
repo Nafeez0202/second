@@ -22,7 +22,7 @@ elif player_input==0 and computer_input==2:
 elif player_input==2 and computer_input==0:
     print("computer winner")
 else:
-    print("both are winners")
+    print("both are winner")
 
 
 
