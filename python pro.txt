@@ -1,0 +1,28 @@
+print("press",0,"for rock")
+print("press",1,"for paper")
+print("press",2,"for scissor")
+player_input=int(input("enter numbers form 0-2:"))
+items=["rock","paper","scisscor"]
+import random
+computer_input=random.randrange(0,2)
+print(items[player_input],"selected by player")
+print(items[computer_input],"selected by computer")
+
+
+if player_input==0 and computer_input==1:
+    print("computer winner")
+elif player_input==1 and computer_input==0:
+    print("player winner")
+elif player_input==1 and computer_input==2:
+    print("computer winner")
+elif player_input==2 and computer_input==1:
+    print("player winner")
+elif player_input==0 and computer_input==2:
+    print("player winner")
+elif player_input==2 and computer_input==0:
+    print("computer winner")
+else:
+    print("both are winners")
+
+
+
